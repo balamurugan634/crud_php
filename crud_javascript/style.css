@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.log {
+  width: 30%;
+  height: 40%;
+}
+.reg {
+  width: 30%;
+  height: 40%;
+}
+form {
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.log form {
+  border: #4cd137 4px solid;
+}
+.reg form {
+  border: #eb2f06 4px solid;
+}
+.reg table {
+  width: 80%;
+  height: 80%;
+}
+.log table {
+  width: 80%;
+  height: 50%;
+}
+tr {
+  width: 100%;
+}
+td {
+  text-align: center;
+}
+.reg td input {
+  width: 90%;
+  height: 40%;
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+.log td input {
+  width: 90%;
+  height: 35%;
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+input {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.082);
+}
+label {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+td button {
+  width: 75%;
+  height: 70%;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+}
+td button:hover{
+  cursor: pointer;
+}
+.reg button {
+  background-color: #eb2f06;
+}
+.log button {
+  background-color: #4cd137;
+}
+.loguser {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  color: #4cd137;
+  top: 25%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+
+  right: 38%;
+  border: #4cd137 5px solid;
+  background-color: white;
+}
+.reguser {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+
+  color: #eb2f06;
+  border: 5px solid #eb2f06;
+  background-color: white;
+  top: 25%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2rem;
+  left: 8%;
+}
+.loguser i {
+  position: sticky;
+}
+.logh1 {
+  position: absolute;
+  top: 20%;
+  right: 22%;
+  text-transform: uppercase;
+  color: #4cd137;
+}
+.regh1 {
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  text-transform: uppercase;
+  color: #eb2f06;
+}
